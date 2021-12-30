@@ -91,7 +91,7 @@ const qnaList= [
     {
         q: '12. 당신이 선택할 첫데이트 장소는?',
         a: [
-            { answer: 'a. 숲 & 산책로', type: 5 },
+            { answer: 'a. 숲 & 산책로', type: 4 },
             { answer: 'b. 놀이공원', type: 2 },
             { answer: 'c. 번화가', type: 3 },
             { answer: 'd. 카페', type: 4 },
@@ -103,7 +103,7 @@ const qnaList= [
         a: [
             { answer: 'a. 우리 둘만의 커플 아이템', type: 3 },
             { answer: 'b. 마음이 담긴 손편지', type: 1 },
-            { answer: 'c. 정성은 필요 없다! 값비싼 선물', type: 5 },
+            { answer: 'c. 정성은 필요 없다! 값비싼 선물', type: 4 },
             { answer: 'd. 향기로운 그대의 마음, 향수', type: 1 },
             { answer: 'e. 누가 꽃이게? 꽃', type: 2 }
         ]
@@ -111,7 +111,7 @@ const qnaList= [
     {
         q: '14. 오래간 짝사랑하던 그(그녀)... 오늘 나의 마음을 전하겠어! 당신의 고백 방법은?',
         a: [
-            { answer: 'a. 난 직접 말하겠어!', type: 5 },
+            { answer: 'a. 난 직접 말하겠어!', type: 4 },
             { answer: 'b. 나는 신세대! 카톡으로 고백하자.', type: -4 },
             { answer: 'c. 사람의 심금을 울리는 것은 목소리지~ 난 전화로 고백하겠어!', type: 2 },
             { answer: 'd. 간지나게 DDP에서 공개고백으로!!', type: -8 },
@@ -122,7 +122,7 @@ const qnaList= [
         q: '15. 마침내 사귀게 된 그(그녀). 당신이 선호하는 연애스타일은?',
         a: [
             { answer: 'a. 편-안 친구 같은 편안한 연애', type: 2 },
-            { answer: 'b. 쪽쪽♥ 열렬하고 찐득한 연애', type: 5 },
+            { answer: 'b. 쪽쪽♥ 열렬하고 찐득한 연애', type: 4 },
             { answer: 'c. 난 너밖에 없어! 서로 의지하는 연애', type: 3 },
             { answer: 'd. 너는 너! 나는 나! 자유로운 연애', type: 1 },
         ]
