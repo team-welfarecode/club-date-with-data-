@@ -1,7 +1,7 @@
 const main = document.querySelector("#main");
 const qna = document.querySelector("#qna");
 const result = document.querySelector("#result");
-const endPoint = 5;
+const endPoint = 15;
 
 function goResult(score){
     qna.style.WebkitAnimation = "fadeOut 0.5s";
