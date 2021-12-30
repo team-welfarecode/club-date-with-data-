@@ -19,20 +19,25 @@ function goResult(score) {
 
 function setResult(score) {
   var point;
-  if (score >= 100) {
+  if (score >= 150) {
     point = 1;
+    document.getElementById("mention").innerHTML = "곧 좋은 인연이 찾아올거에요!!";
+  }
+  else if (score >= 100) {
+    point = 2;
+    document.getElementById("mention").innerHTML = "내년에 좋은일이 생길수도?";
   }
   else if (score >= 80) {
-    point = 2;
+    point = 3;
+    document.getElementById("mention").innerHTML = "가능성이 있어요! 주변을 잘 둘러보세요";
   }
   else if (score >= 60) {
-    point = 3;
-  }
-  else if (score >= 40) {
     point = 4;
+    document.getElementById("mention").innerHTML = "그래도 이정도면 나쁘진 않아요... 파이팅!";
   }
-  else if (score >= 20) {
+  else if (score >= 0) {
     point = 5;
+    document.getElementById("mention").innerHTML = "안타깝지만 다음생을 노려봐요ㅠㅠ";
   }
   var resultImg = document.createElement('img');
   const imgDiv = document.querySelector('#resultImg');
@@ -42,6 +47,7 @@ function setResult(score) {
   resultImg.classList.add('img-fluid');
   imgDiv.appendChild(resultImg);
   document.getElementById("score").innerHTML = score;
+  
 }
 
 function addAnswer(answerText, qIdx, idx) {
