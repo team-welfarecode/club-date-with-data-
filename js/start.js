@@ -34,9 +34,6 @@ function setResult(score) {
   else if (score >= 20) {
     point = 5;
   }
-  else if (score >= 0) {
-    point = 6;
-  }
   var resultImg = document.createElement('img');
   const imgDiv = document.querySelector('#resultImg');
   var imgURL = 'img/image-' + point + '.png';
@@ -44,7 +41,7 @@ function setResult(score) {
   resultImg.alt = point;
   resultImg.classList.add('img-fluid');
   imgDiv.appendChild(resultImg);
-  document.getElementById("score").innerHTML = (score - 4);
+  document.getElementById("score").innerHTML = score;
 }
 
 function addAnswer(answerText, qIdx, idx) {
